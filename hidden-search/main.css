@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+    position: relative;
+    overflow: hidden;
+    
+}
+button{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 0;
+    height: 60px;
+    width: 60px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.input.hidden{
+    visibility: hidden;
+    transition: visibility 0.2s linear;
+
+}
+.input{
+    position: absolute;
+    top: 43%;
+    left:30%;
+    visibility: visible;
+    transition: visibility 0.2s linear;
+    height: 60px;
+    width: 200px;
+    margin:10px;
+    border-radius: 10px;
+    font-size: 40px;
+    border: 0;
+}
+.input::placeholder{
+    font-size: 40px;
+}
