@@ -1,7 +1,7 @@
 var text=document.querySelector('h3');
 var count=0;
 var img=document.querySelector('img');
-var inte=setInterval(counter,50);
+var inte=setInterval(counter,30);
 function counter(){
     count++;
     if(count>99){

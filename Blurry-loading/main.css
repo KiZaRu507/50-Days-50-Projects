@@ -5,6 +5,7 @@ body{
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
     
 }
@@ -13,12 +14,14 @@ img{
     width: 100vw;
 
     filter: blur(30px);
+    z-index: -1;
 }
 h3{
     color: #fff;
     position: fixed;
-    top: 50%;
+    top:50%;
     left: 50%;
+
     font-size: 30px;
 }
 
