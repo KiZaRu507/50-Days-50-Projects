@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.split{
+    text-align: center;
+    width:50%;
+    height: 100vh;
+}
+.split.left{
+    background-color: aqua;
+    transition: width 0.4s ease;
+}
+.split.right{
+    background-color: burlywood;
+    transition: width 0.4s ease;
+}
+.split.left.active{
+    width:75vw;
+}.split.right.inactive{
+    width: 25vw;
+}
+.split.right.active{
+    width:75vw;
+}.split.left.inactive{
+    width: 25vw;
+}
