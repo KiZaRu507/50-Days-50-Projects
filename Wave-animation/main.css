@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Mali:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    font-family: 'Mali';
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: steelblue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 40px 20px 10px;
+}
+.form-action{
+    position: relative;
+}
+.form-action input{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width:100%;
+    
+}
+.form-action input:focus,.form-action input:valid{
+    outline: 0;
+}
+form a{
+    text-decoration: none;
+    color:lightblue;
+}
+form .btn{
+    cursor: pointer;
+}
+
